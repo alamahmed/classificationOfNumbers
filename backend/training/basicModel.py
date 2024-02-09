@@ -8,7 +8,7 @@ Epochs = 1000
 Patience = 20
 Batch_size = 1000
 Test_batch = Batch_size
-fileToStoreModel = "FinalModel1.keras"
+fileToStoreModel = "../FinalModel.keras"
 fileToStorePlot = "loss_acc_graph.png"
 # # For Testing
 # Epochs = 20
