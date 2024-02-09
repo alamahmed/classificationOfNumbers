@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Picell</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div id="canvasPage">
+        <section class="toolkit">
+            <div class="color-picker">
+                <input id="Color" class="c-picker" type="color" value="#000000">
+            </div>
+            <input id="brush_size" class="size" type="range" min=1 max=50 value=1>
+            <input id="brush_value" class="size_value" type="number" min=1 max=50 value=1>
+            <button id="button" class="button">clear</button>
+            <!-- <button id="save" class="button">Save</button> -->
+        </section>
+        <div class="can">
+            <canvas id="canvas" class="canvas"></canvas>
+        </div>
+
+        <div class="activation-container">
+            <div class="circle_container">
+                <div id="c0" class="circle"></div>
+                <div id="c1" class="circle"></div>
+                <div id="c2" class="circle"></div>
+                <div id="c3" class="circle"></div>
+                <div id="c4" class="circle"></div>
+                <div id="c5" class="circle"></div>
+                <div id="c6" class="circle"></div>
+                <div id="c7" class="circle"></div>
+                <div id="c8" class="circle"></div>
+                <div id="c9" class="circle"></div>
+                <h2 id="result" class="number"></h2>
+            </div>
+            <button id="check-Number" class="button">Check Number</button>
+        </div>
+
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js" type="module" language="javascript"></script>
+    <script src="server.js" type="module" language="javascript"></script>
+
+</body>
+
+</html>
