@@ -9,7 +9,7 @@ const updateData = (imageLink, callback) => {
     xhr.setRequestHeader('Content-Type', 'application/json');
 
     // Send the request
-    xhr.send({ "imageLink": imageLink });
+    xhr.send(JSON.stringify({ "imageLink": imageLink }));
 
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
