@@ -3,7 +3,7 @@ const updateData = (imageLink, callback) => {
     const xhr = new XMLHttpRequest();
 
     // Open a connection to the server
-    xhr.open('POST', 'https://classificationofnumberbackend.onrender.com/', true);
+    xhr.open('POST', 'https://classificationofnumberbackend.onrender.com/items', true);
 
     // Set the request headers
     xhr.setRequestHeader('Content-Type', 'application/json');
